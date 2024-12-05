@@ -4,7 +4,8 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Hello\r\nworld");
-        System.out.println("Hello\tworld");
+        double result = 5 / 2.0;
+        System.out.println("result = " + result);
+
     }
 }
