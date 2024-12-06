@@ -1,7 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        int x = 10, y = 20;
-        int result = ++x + --x + x++;
+        int input = 5;
+
+        int result = (input < 10) ? (10) : (20);
+
         System.out.println("result = " + result);
     }
 }
